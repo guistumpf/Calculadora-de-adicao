@@ -1,0 +1,29 @@
+*{
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(112, 141, 167);
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    }
+    .section{
+        text-align: center;
+        background-color: white;
+        padding: 15px;
+        border-radius: 19px;
+        background-color: cornflowerblue;
+        box-shadow: 3px 1px 1px  black;
+
+    }
+    input{
+        border: 1px solid black;
+    
+    }
+    
+    p{
+        font-size: 20px;
+        font-style: bold;
+    }

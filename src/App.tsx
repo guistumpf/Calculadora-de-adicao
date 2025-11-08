@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 
 export default function Soma(){
 
@@ -17,12 +17,13 @@ input2value(Number(e.target.value));
 
 
 return(
-    <div>
-        <h1>Soma</h1>
+    <div className="section">
+    <h1>Adição</h1>
         <input type="number" value={input} id="input1" onChange={mudanca1}/>
     <h2>+</h2>
     <input type="number" value={input2} id="input2" onChange={mudanca2}/>
-   <h3>{result}</h3>
+   <p>Resultado: {result}</p>
+  
     </div>
 )
 
